@@ -31,9 +31,14 @@ showPetNameTwo("Buddy");
 // delete: Truls doesnt like the post so he decided to delete it .
 
 const API_URL = "https://catfact.ninja/facts"; // Link for the back end application
+const factsContainer = document.querySelector(".facts-container");
 
+//GET
 fetch(API_URL)
   .then((response) => response.json())
   .then((data) => {
     console.log("data: ", data);
+    const totalNumberOfFacts = factsData.data.length;
+    {
+    }
   });
